@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+.link-tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

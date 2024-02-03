@@ -6,7 +6,7 @@ import Services from "./components/Services";
 const Approutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Homepage/>}/>
+            <Route exact path="/sample101" element={<Homepage/>}/>
             <Route path="/events" element={<Events/>} />
             <Route path="/services" element={<Services/>} />
         </Routes>    
